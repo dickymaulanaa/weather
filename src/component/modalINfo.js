@@ -77,7 +77,7 @@ const ModalInfo = (props) => {
             ) : (
               <div className="weather-info d-flex flex-column justify-content-center align-items-center ">
                 <div>
-                  <div>{icon}</div>
+                  <div className=" d-flex justify-content-center">{icon}</div>
                 </div>
                 <div className="temp">{temp}</div>
                 <h6>{condition}</h6>
